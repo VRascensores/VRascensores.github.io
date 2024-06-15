@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+
+
+  
+/* Estilos para el encabezado */
+header {
+    position: fixed; /* Fijar el encabezado en la parte superior */
+    top: 0; /* Colocar el encabezado en la parte superior */
+    left: 0; /* Colocar el encabezado en la parte izquierda */
+    width: 100%; /* Ancho del encabezado igual al ancho de la pantalla */
+    height: 100vh; /* Altura del encabezado igual a la altura de la pantalla */
+    background-color: rgba(255, 255, 255, 0.856); /* Fondo semi-transparente (negro con 50% de opacidad) */
+    z-index: 100; /* Colocar el encabezado por encima de otros elementos */
+    }
+    
+    
+
+    /* Estilos para el contenido */
+    .content {
+    padding: 10px;
+    }
+    
+  
+/* Estilos para el contenedor del logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 10px; /* Espacio entre el logo y el menú de navegación */
+    }
+    
+    /* Estilos para el logo */
+    .logo {
+    width: 15cm; /* Ancho del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    }
+    
+    
+    
+    /* Estilos para las secciones */
+    section {
+    padding: 20px;
+    }
+    
+    /* Estilos para los mapas mentales */
+    .maps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    }
+    
+    .map {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    
+    /* Estilos para los servicios */
+    .services {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    }
+    
+    .service {
+    text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    h1 {
+    text-align: center;
+    }
+     
+
+
+/* Estilos para el cuerpo de la página */
+body {
+    color: white; /* Color del texto */
+    }
+    
+    /* Otros estilos para tu página */
